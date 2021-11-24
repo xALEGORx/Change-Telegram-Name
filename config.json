@@ -1,0 +1,10 @@
+{
+    "API_ID": 0000000,
+    "API_HASH": "XXXXXXXXXXXXXXXXXX",
+    "NAMES": {
+        "Ctrl + 1": "RAYCON",
+        "Ctrl + 2": "RAYCON (sleep)",
+        "Ctrl + 3": "RAYCON (working)",
+        "Ctrl + 4": "RAYCON (game)"
+    }
+}

@@ -3,17 +3,9 @@ from pyrogram.raw import functions
 import plyer
 import keyboard
 import time
+import json
 
-config = {
-    'API_ID': 0000000,
-    'API_HASH': 'XXXXXXXXXXXXXXXX',
-    'NAMES': {
-        'Ctrl + 1': 'RAYCON',
-        'Ctrl + 2': 'RAYCON (sleep)',
-        'Ctrl + 3': 'RAYCON (working)',
-        'Ctrl + 4': 'RAYCON (game)'
-    }
-}
+config = json.loads(open('config.json').read())
 
 with Client("app", config['API_ID'], config['API_HASH']) as app:
     def ChangeNick(nick):
