@@ -1,10 +1,15 @@
 {
-    "API_ID": 0000000,
-    "API_HASH": "XXXXXXXXXXXXXXXXXX",
+    "API_ID": 00000000,
+    "API_HASH": "XXXXXXXXXXXXXXXXXXXX",
     "NAMES": {
-        "Ctrl + 1": "RAYCON",
-        "Ctrl + 2": "RAYCON (sleep)",
-        "Ctrl + 3": "RAYCON (working)",
-        "Ctrl + 4": "RAYCON (game)"
+        "Ctrl + 1": "ALEGOR",
+        "Ctrl + 2": "ALEGOR (sleep)",
+        "Ctrl + 3": "ALEGOR (working)",
+        "Ctrl + 4": "ALEGOR (game)"
+    },
+    "TIME": {
+        "04:00": "ALEGOR (sleep)",
+        "14:00": "ALEGOR",
+        "18:00": "ALEGOR (work)"
     }
 }
